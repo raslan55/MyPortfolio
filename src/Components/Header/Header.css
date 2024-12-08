@@ -1,0 +1,5 @@
+nav li a{
+    color: var(--Link-color) !important;
+    text-transform: capitalize;
+
+}
