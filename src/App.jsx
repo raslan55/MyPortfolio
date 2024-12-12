@@ -1,24 +1,26 @@
-import AboutMe from './Components/About/AboutMe'
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import Projects from './Components/Projects/Projects'
-import ContactMe from './Components/ContactMe/ContactMe'
+import { createBrowserRouter, RouterProvider } from "react-router";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Layout from "./Components/Layout/Layout";
+import Notfound from "./Components/NotFound/Notfound";
+
+let routes = createBrowserRouter([
+  {
+    path: "",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "about", element: <About /> },
+      { path: "*", element: <Notfound /> },
+    ],
+  },
+]);
 function App() {
   return (
     <>
-   <div className='lg:container lg:mx-auto  px-5'>
-   <Header/>
-   <Hero/>
-   <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
-   <Projects/>
-   <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
-    <AboutMe/>
-    </div>
-    <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
-
-    <ContactMe/>
+      <RouterProvider router={routes}> </RouterProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

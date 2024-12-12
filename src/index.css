@@ -12,9 +12,19 @@
   }
 
   
-
+html{
+  scroll-behavior:smooth;
+}
 body{
 
+  
     font-family: "Poppins", sans-serif;
     background-color: var(--dark-bg);
 }
+
+
+/* .img-bg {
+  background-image: url("../src/assets/bg.png");
+  background-position: center;
+  background-size: cover;
+} */
