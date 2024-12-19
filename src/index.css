@@ -22,9 +22,21 @@ body{
     background-color: var(--dark-bg);
 }
 
+.active {
+  border-bottom: 1px solid #a59d9dee;
+  color: #a59d9dee;
+}
+
 
 /* .img-bg {
   background-image: url("../src/assets/bg.png");
   background-position: center;
   background-size: cover;
 } */
+
+mark {
+  background-color: #a59d9d3f;
+  color: #C7C7C7;
+  padding: 3px;
+}
+ 

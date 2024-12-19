@@ -1,5 +1,12 @@
 nav li a{
     color: var(--Link-color) !important;
     text-transform: capitalize;
+transition: all;
+}
+
+nav li a:hover{
+    border-bottom: 1px solid #a59d9dee;
+    color: #a59d9dee;
+    transition: all;
 
 }

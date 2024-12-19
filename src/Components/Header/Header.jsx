@@ -1,30 +1,35 @@
-import {  Navbar } from "flowbite-react";
-import {Link} from  'react-router'
+import { Navbar } from "flowbite-react";
+import { Link, NavLink } from "react-router";
 
-import  "./Header.css";
+import "./Header.css";
 export default function Header() {
   return (
     <div>
-    <Navbar fluid  className="bg-zinc-950">
-      <Navbar.Brand href="#">
-      <span className="self-center text-xl font-semibold text-white whitespace-nowrap dark:text-white"> Raslan </span>
-      </Navbar.Brand>
-      <div className="flex md:order-2">
-        <Navbar.Toggle />
-      </div>
-      <Navbar.Collapse className="ml-auto">
-      <Link to="/">
-        <Navbar.Link href="#" active>
-          Home
-        </Navbar.Link>
-        </Link>
-        <Navbar.Link> Work </Navbar.Link>
-        <Link to="about">
-        <Navbar.Link >About</Navbar.Link>
-        </Link>
-        <Navbar.Link href="#Contact">Contact</Navbar.Link>
-      </Navbar.Collapse>
-    </Navbar>
+      <Navbar fluid className="bg-zinc-950">
+        <Navbar.Brand href="#">
+          <span className="self-center text-xl font-semibold text-white whitespace-nowrap dark:text-white">
+            <Link to="/">Raslan</Link>
+          </span>
+        </Navbar.Brand>
+
+        <div className="flex md:order-2">
+          <Navbar.Toggle />
+        </div>
+
+        <Navbar.Collapse className="ml-auto">
+          <NavLink to="/">
+            <Navbar.Link>Home</Navbar.Link>
+          </NavLink>
+
+          <NavLink to="work">
+            <Navbar.Link> Work </Navbar.Link>
+          </NavLink>
+          <NavLink to="about">
+            <Navbar.Link>About</Navbar.Link>
+          </NavLink>
+          <Navbar.Link href="#Contact">Contact</Navbar.Link>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
-  )
+  );
 }

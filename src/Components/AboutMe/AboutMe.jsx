@@ -23,8 +23,10 @@ export default function AboutMe() {
               Passionate about collaborating with teams to create intuitive and visually
               appealing user experiences. Eager to contribute
              my expertise and continuously learn new skills. 🎨👨‍💻
-            Connect with me to see my latest projects!             </p>
-
+            
+               Let's create something amazing together!  
+            </p>
+            
             <span>
            <Link to="about" className="font-light text-gray-600 underline hover:text-white " >
              More about me

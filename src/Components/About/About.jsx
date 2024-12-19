@@ -1,18 +1,22 @@
 import AboutMe from "../AboutMe/AboutMe";
-import myImage from '../../assets/My-IMG.jpeg';
+import ContactMe from "../ContactMe/ContactMe";
+import Capabilities from "../MyCapabilities/Capabilities";
+import Experience from "../MyExperience/Experience";
 
 export default function About() {
   return (
     <>
-    <div className="container mx-auto">
-      
+    <div className="container mx-auto mt-6">
         <AboutMe/>
-
+        <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
+        <Capabilities/>
+        <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
+        <Experience/>
+        <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
+       <ContactMe/> 
     </div>
-    
-    <div className="container w-3/4 mx-auto ">
-    <img className="w-1/2 mx-auto mt-5 shadow-lg rounded-3xl" src={myImage} alt="myImage"/>
-     </div>  
+       
+
      
 </>
   )
