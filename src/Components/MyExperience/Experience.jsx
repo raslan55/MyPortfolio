@@ -2,22 +2,21 @@
 export default function Experience() {
   return (
     <div>
-    <section className="px-4 py-8" id="About">
+    <section className="px-4 lg:py-8">
     <div className="flex flex-col lg:flex-row justify-evenly">
         <div className="w-full mr-auto lg:w-1/3 ">
-
-        <h2 className="max-w-2xl mt-20 mb-4 text-5xl font-extrabold leading-relaxed tracking-tight text-white md:text-5xl xl:text-5xl dark:text-white">
+        <h2 className="max-w-2xl lg:mt-20 mb-4 text-5xl font-extrabold leading-relaxed tracking-tight text-white md:text-5xl xl:text-5xl dark:text-white">
         My Experience
          </h2>
 
         </div>
 
         <div className="w-full mt-6 lg:w-2/3">
-        <div className="mr-auto place-self-center lg:col-span-7  my-10">
+        <div className="mr-auto place-self-center lg:col-span-7  lg:my-10">
         <div className="mb-4 flex items-center justify-between">
         <h5 className="text-xl font-bold leading-none text-white ">Front-End developer </h5>
         <span  className="text-sm font-medium text-white">
-        Feb 2022 — Present 
+        Feb 2023 — Present 
         </span>
         </div>
         <h3 className="text-xl text-gray-500 capitalize mb-7"> Sinmar soft</h3>
@@ -52,7 +51,7 @@ export default function Experience() {
         <div className="mb-4 flex items-center justify-between">
         <h5 className="text-xl font-bold leading-none text-white "> Teacher Assistant </h5>
         <span  className="text-sm font-medium text-white">
-         Part-time
+        Oct 2020 -   Part-time
         </span>
         </div>
         <h3 className="text-xl text-gray-500 capitalize mb-7"> Advanced Academy </h3>
