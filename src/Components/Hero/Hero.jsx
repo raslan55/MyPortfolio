@@ -4,7 +4,6 @@ export default function Hero() {
   return (
     <div>
       <section className="px-4 lg:py-8 mt-20">
-        
         <div className= "flex flex-col lg:flex-row justify-evenly ">
           <div className="w-full mr-auto lg:w-1/2">
             <h1 className="max-w-2xl mt-16 lg:mt-20 mb-4 text-3xl capitalize font-extrabold leading-relaxed tracking-tight text-white md:text-5xl xl:text-6xl dark:text-white">
