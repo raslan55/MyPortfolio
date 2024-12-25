@@ -1,7 +1,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { FaRegPaperPlane } from "react-icons/fa";
+import Icons from "../MyIcons/Icons";
 
-import Icons from "../Icons/icons";
 export default function ContactMe() {
   const [state, handleSubmit] = useForm("mnnnqzyb");
 
