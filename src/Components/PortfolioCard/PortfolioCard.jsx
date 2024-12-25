@@ -7,8 +7,8 @@ export default function PortfolioCard() {
   return (
     <>
       {Items.map((Item) => (
-        <div key={Item.id} className="flex flex-col md:flex-row my-7">
-          <div className="md:w-1/2 p-12 img-bg rounded-lg shadow-md">
+        <div key={Item.id} className="flex flex-col md:flex-row my-7 ">
+          <div className="md:w-1/2 p-12 img-bg rounded-lg shadow-md mb-10 lg:mb-auto">
             <img
               src={Item.ItemImg}
               alt={Item.ItemText}

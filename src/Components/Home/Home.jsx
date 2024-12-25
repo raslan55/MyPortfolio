@@ -7,7 +7,7 @@ import Projects from "../Projects/Projects";
 export default function Home() {
   return (
     <>
-<div className='px-5 lg:container lg:mx-auto'>
+<div className='lg:px-5 px-3 mt-3 lg:container lg:mx-auto'>
    <Hero/>
    <hr className='h-px my-8 bg-gray-700 border-0 dark:bg-gray-700'/>
    <Projects/>

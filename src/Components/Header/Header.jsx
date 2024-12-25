@@ -16,7 +16,7 @@ export default function Header() {
           <Navbar.Toggle className="hover:bg-gray-600 transition duration-500 ease-in-out text-white outline-none focus:border-none  focus:shadow-none"/>
         </div>  
 
-        <Navbar.Collapse className="ml-auto lg:shadow-none shadow transition duration-500 ease-in-out bg-gray-800  lg:bg-transparent  lg:rounded-none rounded mt-5">
+        <Navbar.Collapse className="ml-auto lg:shadow-none md:shadow-none shadow transition duration-500 ease-in-out bg-gray-800  lg:bg-transparent md:bg-transparent lg:rounded-none rounded mt-5">
           <NavLink to="/">
             <Navbar.Link>Home</Navbar.Link>
           </NavLink>
