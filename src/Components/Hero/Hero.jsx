@@ -1,5 +1,6 @@
-import Icons from "../Icons/icons";
+
 import myImage from "../../assets/Mahmoud-Raslan - Web Developer.jpg";
+import Icons from "../MyIcons/Icons";
 export default function Hero() {
   return (
     <div>
